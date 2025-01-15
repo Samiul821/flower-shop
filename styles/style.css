@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fonts{
+    font-family: Lato;
+}
+#hero{
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.1);
+    margin-bottom: 178px;
+}
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center;
+}
+.banner-title-container{
+    width: 708px;
+   height: 506px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner-img{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}

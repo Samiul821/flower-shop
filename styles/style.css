@@ -175,3 +175,49 @@
         gap: 20px;
     }
 }
+/* second-banner */
+#second-banner{
+    width: 1920px;
+    height: 620px;
+    border-radius: 8px;
+    margin-bottom: 128px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.second-banner-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second-banner-title-container{
+    width: 594px;
+    height: 228px;
+    text-align: center;
+    margin-top: 230px;
+}
+.second-banner-title{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.off{
+    color: rgb(229, 84, 115);
+}
+.second-banner-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.second-banner-btn{
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.second-banner-img{
+    margin-top: 100px;
+}

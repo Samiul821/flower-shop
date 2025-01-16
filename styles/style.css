@@ -158,3 +158,20 @@
     font-size: 24px;
     font-weight: 600;
 }
+/* support-section responsive */
+@media screen and (max-width:576px) {
+    #support-section, .content-container {
+        flex-direction: column;
+    }
+    #support-section, .content-container{
+        width: 100%;
+    }
+    #support-section{
+       height: 700px;
+       margin: 0 10px 128px  10px;
+    }
+    .content-container{
+        justify-content: center;
+        gap: 20px;
+    }
+}

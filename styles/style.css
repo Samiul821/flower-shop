@@ -122,3 +122,10 @@
     font-weight: 700;
     text-decoration-line: underline;
 }
+/* card-section responsive */
+@media screen and (max-width:576px) {
+    .crad-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+}

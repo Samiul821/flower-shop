@@ -221,3 +221,17 @@
 .second-banner-img{
     margin-top: 100px;
 }
+
+/* responsive for moblie */
+@media screen and (max-width: 576px) {
+    .second-banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-items: center;
+    }
+    #second-banner, .second-banner-title-container{
+        width: 100%;
+        height: auto;
+        margin-left: 28px;
+    }
+}

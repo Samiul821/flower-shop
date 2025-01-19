@@ -249,6 +249,55 @@
     margin-bottom: 48px;
 }
 
+/* deals-section */
+.deals-section{
+    width: 1440px;
+    height: 449px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 128px auto;
+}
+
+.deals-title{
+    color: #272727;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.deals-subtitle{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+input{
+    padding: 22px 513px 22px 22px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+input::placeholder{
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.deals-btn{
+    padding: 18.29px 31px;
+    border: none;
+    margin-left: 8px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
 /* responsive for moblie */
 @media screen and (max-width: 576px) {
     .second-banner-container{
